@@ -11,11 +11,8 @@ public class Demo {
 		
 		try {
 			String s = args[0];
-			//String binary = Convert.stringToBinary(s);
-	        //System.out.println("binary:" +binary);
-	    
+			
 	        byte[] bytes = Convert.fromBinary(s);
-	        //System.out.println("Bytes:" +bytes);
 	  
 	        String string = new String(bytes, "UTF-8");
 	        System.out.println("String:" +string);
